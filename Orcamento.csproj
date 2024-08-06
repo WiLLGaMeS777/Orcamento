@@ -1,0 +1,290 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Orcamento</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net46</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Orcamento.Fomulários.Orc201R2.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc201R1.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc405R.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc403R.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc402R.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc401R.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc404R.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc202R.rdlc" />
+    <None Remove="Orcamento.Fomulários.Orc201R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc201R2.rdlc" LogicalName="Orcamento.Fomulários.Orc201R2.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc201R1.rdlc" LogicalName="Orcamento.Fomulários.Orc201R1.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc405R.rdlc" LogicalName="Orcamento.Fomulários.Orc405R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc403R.rdlc" LogicalName="Orcamento.Fomulários.Orc403R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc402R.rdlc" LogicalName="Orcamento.Fomulários.Orc402R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc401R.rdlc" LogicalName="Orcamento.Fomulários.Orc401R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc404R.rdlc" LogicalName="Orcamento.Fomulários.Orc404R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc202R.rdlc" LogicalName="Orcamento.Fomulários.Orc202R.rdlc" />
+    <EmbeddedResource Include="Orcamento.Fomulários.Orc201R.rdlc" LogicalName="Orcamento.Fomulários.Orc201R.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Orcamento\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\..\..\..\Orcamento\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Orcamento.Formulários.Orc201T.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc201T.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Formulários.Orc202R.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc202R.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Formulários.Orc401R.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc401R.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Formulários.Orc402R.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc402R.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Formulários.Orc403R.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc403R.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Formulários.Orc404R.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc404R.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Formulários.Orc405R.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Formulários.Orc405R.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Orcamento.Properties.Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orcamento.Properties.Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc000.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc000.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc001.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc001.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc002.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc002.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc003.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc003.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc004.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc004.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc005.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc005.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc101.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc101.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc102.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc102.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc103.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc103.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc10301.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc10301.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc104.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc104.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc105.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc105.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc106.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc106.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc107.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc107.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc108.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc108.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc109.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc109.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc110.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc110.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc201.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc201.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc20101.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc20101.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc20102.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc20102.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc20103.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc20103.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc20104.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc20104.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc201R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc201R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc201T.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc201T.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc202.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc202.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc20201.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc20201.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc202R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc202R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc303.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc303.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc304.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc304.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc305.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc305.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc306.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc306.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc401.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc401.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc401R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc401R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc402.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc402.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc402R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc402R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc403.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc403.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc403R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc403R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc404.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc404.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc404R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc404R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc405.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc405.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc405R.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc405R.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc501.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc501.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc601.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc601.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc602.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc602.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc603.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc603.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc60301.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc60301.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Formulários.Orc604.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Formulários.Orc604.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Orcsen.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Orcsen.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Orcamento.Properties.Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Orcamento.Properties.Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

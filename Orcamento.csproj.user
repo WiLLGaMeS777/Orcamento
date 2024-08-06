@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Orcamento.Formulários\Orc000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc102.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc10301.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc104.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc105.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc108.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc109.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc201.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc20101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc20102.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc20103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc20104.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc201R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc201T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc202.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc20201.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc202R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc303.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc30301.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc304.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc305.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc306.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc401.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc401R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc402.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc402R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc403.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc403R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc404.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc404R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc405.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc405R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc501.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc601.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc602.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc603.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc60301.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento.Formulários\Orc604.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Orcamento\Orcsen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
